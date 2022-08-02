@@ -1,0 +1,14 @@
+form {
+    position: absolute;
+    left: 43%;
+    color: black;
+    top: 33%;
+  }
+  
+  #albumHeading {
+    position: absolute;
+    left: 34%;
+    color: gold;
+    text-align: center;
+  }
+  
