@@ -8,7 +8,7 @@ export default function UpdateAlbum(props) {
   console.log(album);
   let [title, setTitle] = useState(album.title);
   let [userId, setUserId] = useState(album.userId);
-
+/// we are using the code in this file to update the albums 
   useEffect(() => {
     let album = albums.find((elem) => elem.id == id);
     setAlbum(album);
